@@ -52,7 +52,7 @@ $this->title = "Chống thấm Đà Nẵng"
 <!-- Page Content -->
 <div class="container">
 
-    <h1 class="my-4">Hoài Thành P&P</h1>
+    <h1 class="my-4">Chống thấm</h1>
 
     <!-- Marketing Icons Section -->
     <div class="row">
@@ -84,7 +84,7 @@ $this->title = "Chống thấm Đà Nẵng"
     <!-- /.row -->
 
     <!-- Portfolio Section -->
-    <h2>Công trình thi công</h2>
+    <h2>Công trình</h2>
 
     <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -155,5 +155,29 @@ $this->title = "Chống thấm Đà Nẵng"
         </div>
     </div>
     <!-- /.row -->
+    <hr>
+    <!-- Features Section -->
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>Hòa Thành P&P</h2>
+            <p>The Modern Business template by Start Bootstrap includes:</p>
+            <ul>
+                <li>
+                    <strong>Bootstrap v4</strong>
+                </li>
+                <li>jQuery</li>
+                <li>Font Awesome</li>
+                <li>Working contact form with validation</li>
+                <li>Unstyled page elements for easy customization</li>
+            </ul>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
 </div>
 <!-- /.container -->

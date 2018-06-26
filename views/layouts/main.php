@@ -37,17 +37,20 @@ AppAsset::register($this);
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="about.html">Trang chủ</a>
+                <li class="nav-item <?=Yii::$app->controller->id =='home' ? 'active' : ''?>">
+                    <a class="nav-link" href="<?=Yii::$app->urlManager->baseUrl.'/home'?>">Trang Chủ</a>
+                </li>
+                <li class="nav-item <?=Yii::$app->controller->id =='product' ? 'active' : ''?>">
+                    <a class="nav-link" href="<?=Yii::$app->urlManager->baseUrl.'/product'?>">Sản Phẩm Dịch Vụ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Sản phẩm dịch vụ</a>
+                    <a class="nav-link" href="contact.html">Ảnh Thi Công</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Ảnh thi công</a>
+                <li class="nav-item <?=Yii::$app->controller->id =='about' ? 'active' : ''?>">
+                    <a class="nav-link" href="<?=Yii::$app->urlManager->baseUrl.'/about'?>">Chúng Tôi</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Liên hệ</a>
+                <li class="nav-item <?=Yii::$app->controller->id =='contact' ? 'active' : ''?>">
+                    <a class="nav-link" href="<?=Yii::$app->urlManager->baseUrl.'/contact'?>">Liên Hệ</a>
                 </li>
             </ul>
         </div>
