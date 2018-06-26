@@ -22,4 +22,14 @@ class ProductController extends Controller
     {
         return $this->render('index');
     }
+
+    /**
+     * Displays homepage.
+     *
+     * @return string
+     */
+    public function actionDetail()
+    {
+        return $this->render('detail');
+    }
 }
