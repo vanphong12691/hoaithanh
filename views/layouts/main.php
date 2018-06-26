@@ -15,7 +15,7 @@ AppAsset::register($this);
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title><?= Html::encode($this->title) ?></title>
 
     <!-- Bootstrap core CSS -->
 
@@ -37,17 +37,17 @@ AppAsset::register($this);
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">TRANG CHỦ</a>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">SẢN PHẨM DỊCH VỤ</a>
+                    <a class="nav-link" href="services.html">Sản phẩm dịch vụ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">ẢNH THI CÔNG</a>
+                    <a class="nav-link" href="contact.html">Ảnh thi công</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html">LIÊN HỆ</a>
+                    <a class="nav-link" href="contact.html">Liên hệ</a>
                 </li>
             </ul>
         </div>
@@ -56,6 +56,19 @@ AppAsset::register($this);
 
 <?= $content ?>
 
+<div class="phonering-alo-phone phonering-alo-green phonering-alo-show" id="phonering-alo-phoneIcon" style="left: -50px; bottom: 150px; position: fixed;">
+    <div class="phonering-alo-ph-circle"></div>
+    <div class="phonering-alo-ph-circle-fill"></div>
+    <a href="tel:+841649792844"></a>
+    <div class="phonering-alo-ph-img-circle">
+        <a href="tel:+841649792844"></a>
+        <a href="tel:+841649792844" class="pps-btn-img " title="Liên hệ">
+            <img src="<?=Yii::$app->urlManager->baseUrl.'/images/v8TniL3.png'?>" alt="Liên hệ" width="50" onmouseover="this.src='<?=Yii::$app->urlManager->baseUrl.'/images/v8TniL3.png'?>';" onmouseout="this.src='<?=Yii::$app->urlManager->baseUrl.'/images/v8TniL3.png'?>';">
+        </a>
+    </div>
+</div>
+<a href="tel:+841649792844">
+    <span style="left: 90px; bottom: 30px; position: fixed; background-color: rgba(51, 51, 51, 0.75); color: yellow; padding: 5px 10px; border-radius: 5px; font-size: 20px; z-index: 10000;"><strong>0164.979.2844</strong></span></a>
 <!-- Footer -->
 <footer class="py-5 bg-dark">
     <div class="container">
