@@ -15,13 +15,6 @@ $this->title = "Chống thấm Đà Nẵng"
         <small>Subheading</small>
     </h1>
 
-    <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-            <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">Portfolio 1</li>
-    </ol>
-
     <!-- Project One -->
     <div class="row">
         <div class="col-md-7">
